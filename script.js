@@ -35,12 +35,6 @@
 
 
 
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const observerOptions = {
     root: null,
@@ -71,6 +65,47 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(el);
   });
 });
+
+
+// Modal overlay
+
+document.getElementById("myForm").addEventListener("submit", async function (e) {
+  e.preventDefault(); 
+
+  const form = e.target;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      // This will show modal overlay 
+      document.getElementById("success-modal").style.display = "flex";
+      form.reset();
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  } catch (error) {
+    alert("Something went wrong. Please try again.");
+  }
+});
+
+// This will close the modal overlay when background is clicked
+document.querySelector("#success-modal .background").addEventListener("click", function (e) {
+  e.preventDefault();
+  document.getElementById("success-modal").style.display = "none";
+});
+
+
+
+
+
 
 
 

@@ -17,13 +17,41 @@
 
   <body>
 
-    <section class="Header-section">
+    <div class="modal" id="success-modal">
+      <a href="#" class="background"></a>
+
+      <div class="modal-content">
+        <div class="success-icon">
+          <img src="./icons/Success Icon.svg" alt="">
+        </div>
+
+        <div class="text-group-message">
+          <div class="title-text-message">
+            <div class="message-sent">
+              <h3>Message Sent Successfully</h3>
+            </div>
+          </div>
+
+          <div class="paragraph-mssg">
+              <div class="thanks-for-reaching">
+                <p>Thank you for reaching out!<br>
+                  I’ll get back to you within 24–48 hours, but usually much sooner.</p>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <section class="Header-section" id="Header-section">
       <div class="header-name-container">
         <h1 class="header-name-text">Abdulbasit</h1>
       </div>
 
       <div class="right-container">
+
         <div class="navigation-container">
+
           <div class="nav-link-container">
             <a href="#project" class="top-nav-link"> Work </a>
           </div>
@@ -34,7 +62,9 @@
 
           <div class="nav-link-container">
             <a href="#skills" class="top-nav-link"> Skills </a>
+
           </div>
+
         </div>
 
         <div class="button-container">
@@ -82,7 +112,7 @@
         <div class="buttons-container animate-hidden">
 
           <div class="button-container">
-          <a href="mailto:abdulbasitali@live.com">
+          <a href="#Contact-section">
             <button class="primary-button">
               <img
                 class="button-icon"
@@ -645,7 +675,7 @@
       </div>
     </section>
 
-        <section class="Contact-section">
+        <section class="Contact-section" id="Contact-section">
 
           <div class="contact-text-group animate-hidden slide-left">
 
@@ -665,7 +695,7 @@
 
           <div class="contact-form-container animate-hidden slide-right">
 
-            <form action="">
+            <form action="https://formspree.io/f/xanozjpe" method="POST" id="myForm">
 
               <div class="form-title-text-container">
 
@@ -707,6 +737,7 @@
                     placeholder="What's on your mind?"
                     class="input-field textarea-field"
                     rows="5"
+                    type="user-message"
                   ></textarea>
                 </div>
 
@@ -714,7 +745,7 @@
 
               <div class="button-container" id="contact-form-button-container">
                 <a href="#">
-                  <button class="primary-button" id="contact-form-button">
+                  <button class="primary-button" id="contact-form-button" type="submit">
                     <img
                       class="button-icon"
                       src="./icons/Mail icon.svg"
