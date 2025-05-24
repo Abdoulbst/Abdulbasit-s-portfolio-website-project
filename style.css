@@ -177,7 +177,7 @@ html {
 }
 
 
-
+/* Header section start */
 .Header-section {
     width: 100%;
     height: auto;
@@ -305,7 +305,10 @@ a {
 .menu-button {
     display: none;
 }
+/* Header section end */
 
+
+/* Hero section start */
 .hero-section {
     width: 100%;
     height: auto;
@@ -372,7 +375,10 @@ a {
     width: 100%;
     height: auto;
 }
+/* Hero section end */
 
+
+/* Project section start */
 .project-section {
     width: 100%;
     height: auto;
@@ -588,7 +594,10 @@ a {
 .text-button:hover {
     color: #5e9b9d;
 }
+/* Project section end */
 
+
+/* About Me section start */
 .About-section {
     width: 100%;
     height: auto;
@@ -616,13 +625,16 @@ a {
     width: 100%;
     height: auto;
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400px;
     color: #666666;
     line-height: 30px;
     letter-spacing: .2px;
 }
+/* About Me section end */
 
+
+/* Skills section start */
 .skills-section {
     width: 100%;
     height: auto;
@@ -666,7 +678,10 @@ a {
     border-color: #e1feff;
     background-color: #e1feff;
 }
+/* Skills section end */
 
+
+/* Tool I Use section start */
 .tools-section {
     width: 100%;
     height: auto;
@@ -825,7 +840,10 @@ a {
     letter-spacing: .2px;
     text-align: center;
 }
+/* Tools I Use section end */
 
+
+/* Testimonial section start */
 .testimonial-section {
     width: 100%;
     height: auto;
@@ -1008,7 +1026,10 @@ a {
     color: #777777;
     line-height: 18px;
 }
+/* Testimonial section end */
 
+
+/* Contact Me section start */
 .Contact-section {
     width: 100%;
     height: auto;
@@ -1164,8 +1185,10 @@ form{
 #contact-form-button{
     width: 100%;
 }
+/* Contact Me section end */
 
 
+/* Footer section start */
 .footer-section {
     width: 100%;
     height: auto;
@@ -1348,6 +1371,7 @@ form{
     letter-spacing: .2px;
     text-align: center;
 }
+/* Footer section end */
 
 /* Mobile drawer configuration */
 .drawer {
