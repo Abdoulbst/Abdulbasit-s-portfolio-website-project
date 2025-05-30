@@ -435,6 +435,7 @@ a {
 
 .project-card:hover{
     background-color: #f9f9f9;
+    cursor: pointer;
 }
 
 #Project-1-image {
@@ -1228,7 +1229,7 @@ form{
 .name {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
@@ -1242,8 +1243,8 @@ form{
 .skills-text {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    font-weight: 400px;
-    color: #e8e8e8;
+    font-weight: 400;
+    color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
 }
@@ -1266,7 +1267,7 @@ form{
 .location-title-text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
@@ -1280,8 +1281,8 @@ form{
 .location-body-text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400px;
-    color: #e8e8e8;
+    font-weight: 400;
+    color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
 }
@@ -1304,7 +1305,7 @@ form{
 .contact-title-text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
@@ -1318,15 +1319,15 @@ form{
 .contact-email-link {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400px;
-    color: #e8e8e8;
+    font-weight: 400;
+    color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
     text-decoration: none;
 }
 
 .contact-email-link:hover {
-    color: #ffffff;
+    color: #e8e8e8;
 }
 
 .social-links-container {
@@ -1365,7 +1366,7 @@ form{
 .right-reserved-text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #ffffff;
     line-height: 24px;
     letter-spacing: .2px;
